@@ -79,6 +79,15 @@ p {
   margin-bottom: 40px;
 }
 
+.first-row-text {
+  padding: 0 24px 48px 24px;
+}
+
+.not-first-row-text {
+  margin-top: 48px;
+  padding: 0 24px 48px 24px;
+}
+
 .photo-container {
   background: var(--terciary-color);
   max-width: 100%;
@@ -93,6 +102,7 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 .photo img {
   width: 100%;
   height: auto;
@@ -100,4 +110,51 @@ p {
 
 .name-app {
   margin: 0 0 16px 0;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p,
+  a {
+    font-size: 12px;
+  }
+
+  .links-pages {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .not-first-row-text {
+    margin-top: 0px;
+  }
+
+  .photo-container {
+    display: none;
+  }
+
+  .text-start h2,
+  p {
+    text-align: center;
+  }
+
+  .text-start p {
+    margin-bottom: 0;
+  }
+
+  .launch-link {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
 }

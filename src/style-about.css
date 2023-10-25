@@ -60,5 +60,27 @@ h3 {
 }
 
 .contact-me {
-  margin: 40px 0 0 0;
+  margin: 40px 0;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .email {
+    font-size: 14px;
+  }
 }
