@@ -1,0 +1,64 @@
+:root {
+  --background-color: #f5f2fe;
+  --main-color: #6c63ff;
+  --secondary-color: #4b4b4b;
+  --terciary-color: #f5f2fe;
+}
+
+body {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  max-width: 1000px;
+}
+
+h1 {
+  font-size: 96px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+
+.information-about-me {
+  font-size: 16px;
+  line-height: 1.5;
+  display: block;
+  margin: 30px 20px;
+}
+
+.email {
+  font-size: 24px;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+.photo-container {
+  background-color: var(--terciary-color);
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-me {
+  margin: 40px 0 0 0;
+}
