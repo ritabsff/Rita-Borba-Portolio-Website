@@ -47,20 +47,40 @@ h3 {
 
 .photo-container {
   background-color: var(--terciary-color);
-}
-
-.photo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.photo img {
+
+.photo-container img {
   width: 100%;
   height: auto;
 }
 
 .contact-me {
   margin: 40px 0;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .email {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 400px) {
