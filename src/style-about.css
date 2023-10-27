@@ -89,7 +89,7 @@ h3 {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 575px) {
   h1 {
     font-size: 40px;
   }
@@ -111,7 +111,7 @@ h3 {
   }
 
   .photo-container {
-    max-width: 90%;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
