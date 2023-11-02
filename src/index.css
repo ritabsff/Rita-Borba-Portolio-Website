@@ -51,7 +51,7 @@ p {
   border: solid 1px var(--main-color);
   border-radius: 4px;
   padding: 20px 15px;
-  margin: 20px 20px;
+  margin: 20px auto;
   text-decoration: none;
   background: var(--main-color);
   color: white;
@@ -98,13 +98,13 @@ p {
   padding: 0 24px 28px 24px;
 }
 
-.name-app {
+.info-part h2 {
   margin: 0 0 16px 0;
 }
 
 .work-together {
   text-align: left;
-  margin: 60px 0;
+  margin: 80px 0;
   padding: 20px 0;
   border-radius: 10px;
   background-color: var(--background-color);
@@ -124,10 +124,14 @@ p {
   vertical-align: middle;
 }
 
-.contact-me {
-  padding: 100px 0;
-  background-color: var(--background-color);
+.contact {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contact p {
   text-align: center;
+  margin-top: 20px;
 }
 
 .email {
@@ -156,7 +160,9 @@ p {
   p {
     font-size: 14px;
   }
-
+  .contact {
+    text-align: center;
+  }
   .about-me-image {
     max-width: 90%;
     display: block;
