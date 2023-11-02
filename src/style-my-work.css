@@ -70,6 +70,12 @@ p {
   margin: 0 0 16px 0;
 }
 
+.contact-me {
+  padding: 100px 0;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
