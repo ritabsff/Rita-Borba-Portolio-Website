@@ -83,6 +83,12 @@ p {
     text-align: center;
   }
 
+  .about-me-image {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+  }
+
   .information-about-me {
     font-size: 14px;
     text-align: center;
