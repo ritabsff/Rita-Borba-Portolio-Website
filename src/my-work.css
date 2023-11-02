@@ -31,14 +31,22 @@ p {
   font-size: 18px;
 }
 
-.my-work {
+.hero {
   background: var(--terciary-color);
   justify-content: center;
   padding: 130px 0;
-  margin-bottom: 40px;
 }
 
-.launch-link {
+.hero p {
+  color: var(--main-color);
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.filled-link {
   border: solid 1px var(--main-color);
   border-radius: 4px;
   padding: 20px 15px;
@@ -125,7 +133,7 @@ p {
     text-align: center;
   }
 
-  .launch-link {
+  .info-part .filled-link {
     display: block;
     margin: auto;
     text-align: center;
@@ -151,11 +159,6 @@ p {
     font-size: 12px;
   }
 
-  .links-pages {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
   .photo-container {
     display: none;
   }
@@ -169,7 +172,7 @@ p {
     margin-bottom: 0;
   }
 
-  .launch-link {
+  .filled-link {
     display: block;
     margin: auto;
     text-align: center;
