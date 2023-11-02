@@ -8,7 +8,6 @@
 body {
   display: block;
   margin: auto;
-  text-align: center;
   margin-top: 50px;
 }
 
@@ -32,7 +31,6 @@ p {
 }
 
 .about-me {
-  justify-content: center;
   padding: 130px 0 50px;
 }
 
@@ -65,6 +63,7 @@ p {
 .contact-me {
   padding: 100px 0;
   background-color: var(--background-color);
+  text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -83,6 +82,14 @@ p {
     text-align: center;
   }
 
+  .col-md-12 p {
+    color: var(--main-color);
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+  }
+
   .about-me-image {
     max-width: 90%;
     display: block;
@@ -91,7 +98,6 @@ p {
 
   .information-about-me {
     font-size: 14px;
-    text-align: center;
   }
 
   .email {
@@ -99,7 +105,7 @@ p {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   h1 {
     font-size: 40px;
   }
@@ -114,6 +120,7 @@ p {
 
   .information-about-me {
     font-size: 12px;
+    text-align: center;
   }
 
   .email {
