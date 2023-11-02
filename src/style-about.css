@@ -34,6 +34,14 @@ p {
   padding: 130px 0 50px;
 }
 
+.col-md-12 p {
+  color: var(--main-color);
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+}
+
 .information-about-me {
   font-size: 16px;
   line-height: 1.5;
@@ -80,14 +88,6 @@ p {
   h3 {
     font-size: 20px;
     text-align: center;
-  }
-
-  .col-md-12 p {
-    color: var(--main-color);
-    font-weight: 900;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 14px;
   }
 
   .about-me-image {
