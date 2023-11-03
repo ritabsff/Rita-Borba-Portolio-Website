@@ -61,7 +61,7 @@ p {
 .transparent-link {
   color: var(--main-color);
   font-weight: 700;
-  background: var(--background-color);
+  background: white;
   border: solid 2px var(--main-color);
   border-radius: 10px;
   padding: 20px 15px;
