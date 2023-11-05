@@ -138,16 +138,33 @@ p {
   margin-top: 20px;
 }
 
-.social {
+.email {
   font-size: 24px;
   color: var(--secondary-color);
   text-decoration: none;
   margin: 0 0 20px 0;
 }
 
-.social:hover {
+.email:hover {
   color: var(--main-color);
   font-weight: 600;
+  transition: all 100ms ease-in-out;
+}
+
+.social {
+  font-size: 18px;
+  color: var(--main-color);
+  text-decoration: none;
+  padding: 10px 13px;
+  border-radius: 50%;
+  background: var(--background-color);
+  transition: all 100ms ease-in-out;
+}
+
+.social:hover {
+  color: white;
+  font-weight: 600;
+  background: var(--main-color);
 }
 
 @media (max-width: 900px) {
@@ -163,7 +180,8 @@ p {
     font-size: 20px;
   }
 
-  p {
+  p,
+  .social {
     font-size: 14px;
   }
   .contact {
@@ -175,7 +193,7 @@ p {
     margin: auto;
   }
 
-  .social {
+  .email {
     font-size: 14px;
   }
 }
@@ -248,7 +266,8 @@ p {
   }
 
   p,
-  a {
+  a,
+  .social {
     font-size: 12px;
   }
 
