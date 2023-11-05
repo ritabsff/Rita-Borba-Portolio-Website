@@ -106,8 +106,7 @@ p {
 }
 
 .work-together {
-  text-align: left;
-  margin: 80px 0;
+  margin: 80px 0 40px;
   padding: 20px 0;
   border-radius: 10px;
   background-color: var(--background-color);
@@ -116,10 +115,12 @@ p {
 .work-together-text {
   margin-top: auto;
   margin-bottom: auto;
+  text-align: center;
 }
 
 .work-together-text p {
   margin-bottom: 0;
+  text-align: center;
 }
 
 .work-together a {
@@ -137,14 +138,16 @@ p {
   margin-top: 20px;
 }
 
-.email {
+.social {
   font-size: 24px;
-  color: var(--main-color);
+  color: var(--secondary-color);
   text-decoration: none;
+  margin: 0 0 20px 0;
 }
 
-.email:hover {
-  text-decoration: underline;
+.social:hover {
+  color: var(--main-color);
+  font-weight: 600;
 }
 
 @media (max-width: 900px) {
@@ -172,7 +175,7 @@ p {
     margin: auto;
   }
 
-  .email {
+  .social {
     font-size: 14px;
   }
 }
@@ -227,9 +230,7 @@ p {
     max-width: 200px;
   }
   .work-together {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
   }
 }
 
