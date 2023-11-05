@@ -9,7 +9,6 @@ body {
   display: block;
   margin: auto;
   text-align: center;
-  margin-top: 50px;
 }
 
 h1 {
@@ -30,6 +29,10 @@ h3 {
 p {
   font-size: 18px;
   text-align: left;
+}
+
+.navbar-nav {
+  margin-left: auto;
 }
 
 .hero {
